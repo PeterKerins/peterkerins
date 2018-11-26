@@ -20,7 +20,7 @@ module.exports = {
         icon: 'src/images/chessclub.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline',
+    'gatsby-plugin-remove-serviceworker',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-styled-components',
