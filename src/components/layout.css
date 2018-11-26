@@ -629,3 +629,6 @@ pre tt:after {
   transition: all 200ms ease-out;
   color: #339999;
 }
+section {
+  margin-bottom: 2em;
+}

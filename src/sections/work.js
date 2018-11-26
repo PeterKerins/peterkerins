@@ -43,7 +43,7 @@ export default () => (
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-            gridColumnGap: '2em',
+            gridGap: '2em',
           }}
         >
           {data.allPrismicProject.edges.map(({ node }) => (

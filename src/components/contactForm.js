@@ -1,6 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
-// import './Form.css'
 import './formGrid.css'
 
 export default function contactForm() {

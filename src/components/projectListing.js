@@ -5,11 +5,6 @@ import Img from 'gatsby-image'
 import Overdrive from 'react-overdrive'
 
 const Project = styled.article`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
   position: relative;
 
   .project-details {
@@ -19,6 +14,7 @@ const Project = styled.article`
     bottom: 0;
     h3 {
       padding: 1em;
+      margin-bottom: 0px;
       text-align: center;
       text-decoration: none;
       a {

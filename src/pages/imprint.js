@@ -146,6 +146,12 @@ export default function PrivacyPolicy() {
         If you have any questions or suggestions about our Privacy Policy, do
         not hesitate to contact us.
       </p>
+      <h2>Attribution: </h2>
+      <p>
+        This website uses Icons created by FontAwesome, under the Creative
+        Commons License (CC 4.0) This website has no connection and is not
+        endorsed by FontAwesome. They just make fantastic icons!
+      </p>
     </Layout>
   )
 }

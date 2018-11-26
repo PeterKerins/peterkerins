@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Helmet
-          titleTemplate="Peter Kerins | %s Website"
+          titleTemplate="%s | Peter Kerins"
           title={data.site.siteMetadata.title}
           meta={[
             {
