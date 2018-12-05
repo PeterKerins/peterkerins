@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import styled from 'styled-components'
 import { Spring } from 'react-spring'
+import Helmet from 'react-helmet'
 
 const AboutWrapper = styled.div`
   display: grid;
@@ -21,6 +22,7 @@ const AboutWrapper = styled.div`
 export default function about({ data }) {
   return (
     <Layout>
+      <Helmet title="About" />
       <h1>Who am I?</h1>
 
       <AboutWrapper>

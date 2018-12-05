@@ -1,11 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import ProjectListing from '../components/projectListing'
+import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 
 const IndexPage = ({ data }) => (
   <Layout>
+    <Helmet title="Projects" />
     <h3>My Projects</h3>
     <div
       className="projects-grid"

@@ -1,9 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Helmet from 'react-helmet'
 
 export default function PrivacyPolicy() {
   return (
     <Layout>
+      <Helmet title="Imprint" />
       <h1>Privacy Policy of Peter Kerins Web Development</h1>
 
       <p>

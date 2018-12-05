@@ -4,9 +4,11 @@ import Work from '../sections/work'
 import Services from '../sections/services'
 import Layout from '../components/layout'
 import Contact from '../sections/contact'
+import Helmet from 'react-helmet'
 
 const IndexPage = ({ data }) => (
   <Layout>
+    <Helmet title="Home" />
     <Work />
     <Services />
     <Contact />
