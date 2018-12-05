@@ -3,11 +3,12 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Footer = styled.footer`
+  margin-top: 1em;
   display: flex;
   justify-content: space-between;
   a {
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   p {
     margin: 0;

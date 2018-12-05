@@ -12,6 +12,7 @@ const Project = styled.article`
     width: 100%;
     position: absolute;
     bottom: 0;
+    box-shadow: 0 10px 6px -6px #777;
     h3 {
       padding: 1em;
       margin-bottom: 0px;

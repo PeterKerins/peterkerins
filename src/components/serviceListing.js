@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 
-const Service = styled.article``
+const Service = styled.article`
+  padding: 0.5em;
+`
 
 export default ({ details }) => {
   return (
