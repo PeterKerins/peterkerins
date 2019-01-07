@@ -34,7 +34,6 @@ const Header = ({ siteTitle }) => (
             {siteTitle}
           </Link>
         </h1>
-        <h2>Web Developer</h2>
       </div>
       <Nav />
     </HeaderWrapper>
