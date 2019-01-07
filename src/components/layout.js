@@ -34,6 +34,8 @@ const Layout = ({ children }) => (
             },
           ]}
         >
+          <link rel="stylesheet" href="https://use.typekit.net/pen6cfn.css" />
+
           <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />

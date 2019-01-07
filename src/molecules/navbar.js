@@ -7,6 +7,7 @@ const StyledLink = styled(Link)`
   font-size: 1.2em;
   margin-right: 0.5em;
   text-decoration: none;
+  font-family: neuzeit-grotesk, sans-serif;
 `
 
 export default function navbar() {
