@@ -27,8 +27,9 @@ export default function about({ data }) {
               <h1 className="contact-message__title">Contact Me</h1>
               <p className="contact-message__text">
                 If you're in need of web development, web design or branding
-                services, send me an email. I'm sure we can come up with a plan
-                that's just right for you.
+                services, send me an email at{' '}
+                <a href="mailto:pete.kerins@gmail.com">pete.kerins@gmail.com</a>
+                . I'm sure we can come up with a plan that's just right for you.
               </p>
             </div>
             <ContactForm />
