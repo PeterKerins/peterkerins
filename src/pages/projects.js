@@ -8,7 +8,7 @@ import Layout from '../components/layout'
 const IndexPage = ({ data }) => (
   <Layout>
     <Helmet title="Projects" />
-    <h3>My Projects</h3>
+    <h2>My Projects</h2>
     <div
       className="projects-grid"
       style={{

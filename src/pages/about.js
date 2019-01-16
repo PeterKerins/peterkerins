@@ -23,8 +23,6 @@ export default function about({ data }) {
   return (
     <Layout>
       <Helmet title="About" />
-      <h1>Who am I?</h1>
-
       <AboutWrapper>
         <Spring from={{ position: 'relative', left: -800 }} to={{ left: 0 }}>
           {props => (
