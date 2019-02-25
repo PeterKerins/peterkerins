@@ -1,24 +1,57 @@
 import React from 'react'
-import './formGrid.css'
+import './Form.css'
 
 export default function contactForm() {
   return (
-    <form name="contact" method="POST" data-netlify="true">
-      <div className="formSection">
+    <form
+      className="contact-form"
+      name="contact"
+      method="POST"
+      data-netlify="true"
+    >
+      <div className="contact-form__section">
         <input type="hidden" name="form-name" value="contact" />
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="user_name" required />
+        <label className="contact-form__label" htmlFor="name">
+          Name:
+        </label>
+        <input
+          className="contact-form__input"
+          type="text"
+          id="name"
+          name="user_name"
+          required
+          placeholder="Name"
+        />
       </div>
-      <div className="formSection">
-        <label htmlFor="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_mail" required />
+      <div className="contact-form__section">
+        <label className="contact-form__label" htmlFor="mail">
+          E-mail:
+        </label>
+        <input
+          className="contact-form__input"
+          type="email"
+          id="mail"
+          name="user_mail"
+          placeholder="E-mail"
+          required
+        />
       </div>
-      <div className="formSection">
-        <label htmlFor="msg">Message:</label>
-        <textarea id="msg" name="user_message" required />
+      <div className="contact-form__section">
+        <label className="contact-form__label" htmlFor="msg">
+          Message:
+        </label>
+        <textarea
+          className="contact-form__input"
+          id="msg"
+          name="user_message"
+          required
+          placeholder="What's on your mind"
+        />
       </div>
       <div className="button">
-        <button type="submit">Send your message</button>
+        <button className="contact-form__submit-button" type="submit">
+          Send your message
+        </button>
       </div>
     </form>
   )
