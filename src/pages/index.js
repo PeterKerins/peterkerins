@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
+import Layout from '../components/layout'
 import Work from '../sections/work'
 import Services from '../sections/services'
-import Layout from '../components/layout'
 import Contact from '../sections/contact'
-import Helmet from 'react-helmet'
 
 const IndexPage = ({ data }) => (
   <Layout>

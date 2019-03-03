@@ -1,6 +1,7 @@
 import React from 'react'
-import Layout from '../components/layout'
 import Helmet from 'react-helmet'
+
+import Layout from '../components/layout'
 
 export default function PrivacyPolicy() {
   return (

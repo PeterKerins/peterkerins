@@ -1,9 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import ProjectListing from '../components/projectListing'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import ProjectListing from '../components/projectListing'
 
 const IndexPage = ({ data }) => (
   <Layout>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
+
 import ProjectListing from '../components/projectListing'
 
 export default () => (

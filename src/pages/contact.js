@@ -1,9 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout'
-import styled from 'styled-components'
-import ContactForm from '../components/contactForm'
-import { Spring } from 'react-spring'
 import Helmet from 'react-helmet'
+import { Spring } from 'react-spring'
+import styled from 'styled-components'
+
+import Layout from '../components/layout'
+import ContactForm from '../components/contactForm'
 
 const ContactWrapper = styled.div`
   display: grid;
