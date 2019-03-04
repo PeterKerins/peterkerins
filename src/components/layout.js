@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Footer from './footer'
 
 import Header from './header'
+import Seo from './seo'
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -20,24 +20,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Helmet
-          titleTemplate="%s | Peter Kerins"
-          title={data.site.siteMetadata.title}
-          meta={[
-            {
-              name: 'description',
-              content: 'Peter Kerins Developer Portfolio',
-            },
-            {
-              name: 'keywords',
-              content: 'Cork, Ireland, Web Developer, Web Services',
-            },
-          ]}
-        >
-          <link rel="stylesheet" href="https://use.typekit.net/pen6cfn.css" />
-
-          <html lang="en" />
-        </Helmet>
+        <Seo />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
