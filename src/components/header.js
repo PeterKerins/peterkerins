@@ -5,6 +5,7 @@ import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
   margin: 0 auto;
+  margin-bottom: 1.45rem;
   max-width: 998px;
   padding: 1.45rem 1.0875rem;
   display: flex;
@@ -17,27 +18,21 @@ const HeaderWrapper = styled.div`
 `
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      marginBottom: '1.45rem',
-    }}
-  >
-    <HeaderWrapper>
-      <div className="title">
-        <h1 style={{ margin: 0 }}>
-          <Link
-            to="/"
-            style={{
-              textDecoration: 'none',
-            }}
-          >
-            {siteTitle}
-          </Link>
-        </h1>
-      </div>
-      <Nav />
-    </HeaderWrapper>
-  </div>
+  <HeaderWrapper>
+    <div className="title">
+      <h1 style={{ margin: 0 }}>
+        <Link
+          to="/"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          {siteTitle}
+        </Link>
+      </h1>
+    </div>
+    <Nav />
+  </HeaderWrapper>
 )
 
 export default Header
