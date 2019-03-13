@@ -9,7 +9,7 @@ export default () => (
       query ProjectsQuery {
         allPrismicProject(
           sort: { fields: [first_publication_date], order: DESC }
-          limit: 4
+          limit: 3
         ) {
           edges {
             node {
@@ -22,7 +22,7 @@ export default () => (
                 featured_img {
                   localFile {
                     childImageSharp {
-                      fluid(maxWidth: 480) {
+                      fluid(maxWidth: 980) {
                         ...GatsbyImageSharpFluid
                       }
                     }
@@ -43,7 +43,8 @@ export default () => (
           className="projectsWrapper"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            // gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gridTemplateColumns: 'repeat(2,1fr)',
             gridGap: '2em',
           }}
         >
