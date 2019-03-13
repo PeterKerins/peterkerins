@@ -4,6 +4,22 @@ import Img from 'gatsby-image'
 
 const Service = styled.article`
   padding: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+  align-items: center;
+  .service-information {
+    h3 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+  }
+  &:nth-of-type(even) .service-information {
+    order: -1;
+  }
 `
 
 export default ({ details }) => {

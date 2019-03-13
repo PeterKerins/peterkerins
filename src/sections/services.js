@@ -36,7 +36,7 @@ export default () => (
                 service_icon {
                   localFile {
                     childImageSharp {
-                      fluid(maxWidth: 700) {
+                      fluid(maxWidth: 1080) {
                         ...GatsbyImageSharpFluid
                       }
                     }
@@ -51,13 +51,7 @@ export default () => (
     render={data => (
       <section id="services">
         <h2>Services</h2>
-        <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-            gridColumnGap: '2em',
-          }}
-        >
+        <div>
           {data.allPrismicServices.edges.map(({ node }) => (
             <ServiceListing key={node.prismicId} details={node} />
           ))}
