@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 const Service = styled.article`
   padding: 0.5em;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 2em;
   align-items: center;
   .service-information {
@@ -17,8 +17,11 @@ const Service = styled.article`
       line-height: 1.5;
     }
   }
-  &:nth-of-type(even) .service-information {
-    order: -1;
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+    &:nth-of-type(even) .service-information {
+      order: -1;
+    }
   }
 `
 

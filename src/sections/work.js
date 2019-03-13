@@ -1,7 +1,17 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
+import styled from 'styled-components'
 
 import ProjectListing from '../components/projectListing'
+
+const ProjectsWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`
 
 export default () => (
   <StaticQuery
@@ -39,19 +49,11 @@ export default () => (
         <h2>
           <Link to="projects">Projects</Link>
         </h2>
-        <div
-          className="projectsWrapper"
-          style={{
-            display: 'grid',
-            // gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
-            gridTemplateColumns: 'repeat(2,1fr)',
-            gridGap: '2em',
-          }}
-        >
+        <ProjectsWrapper className="projectsWrapper">
           {data.allPrismicProject.edges.map(({ node }) => (
             <ProjectListing key={node.prismicId} details={node} />
           ))}
-        </div>
+        </ProjectsWrapper>
       </section>
     )}
   />
