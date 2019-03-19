@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
 import styled from 'styled-components'
 
-import ProjectListing from '../components/projectListing'
+import ProjectListing from './projectListing'
 
 const ProjectsWrapper = styled.div`
   display: grid;
