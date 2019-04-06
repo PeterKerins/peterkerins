@@ -47,7 +47,7 @@ export default () => (
     render={data => (
       <section id="work">
         <h2>
-          <Link to="projects">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </h2>
         <ProjectsWrapper className="projectsWrapper">
           {data.allPrismicProject.edges.map(({ node }) => (
