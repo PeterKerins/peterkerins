@@ -2,9 +2,9 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import Work from '../sections/work'
-import Services from '../sections/services'
-import Contact from '../sections/contact'
+import Work from '../components/sections/work'
+import Services from '../components/sections/services'
+import Contact from '../components/sections/contact'
 
 const IndexPage = ({ data }) => (
   <Layout>

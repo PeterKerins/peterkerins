@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
-import ServiceListing from '../components/serviceListing'
+import ServiceListing from '../serviceListing'
 
 export default () => (
   <StaticQuery
