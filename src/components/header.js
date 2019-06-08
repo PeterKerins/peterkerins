@@ -11,7 +11,7 @@ const HeaderWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   @media (min-width: 600px) {
     justify-content: space-between;
   }
@@ -20,7 +20,7 @@ const HeaderWrapper = styled.div`
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <div className="title">
-      <h1 style={{ margin: 0 }}>
+      <h1>
         <Link
           to="/"
           style={{

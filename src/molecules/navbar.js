@@ -6,9 +6,12 @@ const StyledLink = styled(Link)`
   color: hsla(0, 0%, 0%, 0.8);
 
   font-size: 1.2em;
-  margin-right: 0.5em;
+  padding: 0.5em;
   text-decoration: none;
   font-family: neuzeit-grotesk, sans-serif;
+  :not(:last-of-type) {
+    margin-right: 0.4em;
+  }
 `
 
 export default function navbar() {
