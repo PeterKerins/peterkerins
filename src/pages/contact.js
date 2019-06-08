@@ -29,7 +29,7 @@ export default function about({ data }) {
               <p className="contact-message__text">
                 If you're in need of web development, web design or branding
                 services, send me an email at{' '}
-                <a href="mailto:hello.peterkerins.com">hello@peterkerins.com</a>
+                <a href="mailto:hello@peterkerins.com">hello@peterkerins.com</a>
                 . I'm sure we can come up with a plan that's just right for you.
               </p>
             </div>
