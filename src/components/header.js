@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Nav from '../molecules/navbar'
+import Nav from './molecules/navbar'
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
