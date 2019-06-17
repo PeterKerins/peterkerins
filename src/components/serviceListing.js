@@ -31,8 +31,7 @@ export default ({ details }) => {
       {details.data.service_icon.localFile && (
         <Img
           style={{
-            borderRadius: '50%',
-            marginBottom: '2em',
+            marginBottom: '2rem',
           }}
           fluid={details.data.service_icon.localFile.childImageSharp.fluid}
         />

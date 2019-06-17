@@ -32,7 +32,7 @@ const Project = styled.article`
 export default ({ details }) => {
   return (
     <Project>
-      <Link to={`projects/${details.uid}`}>
+      <Link to={`work/${details.uid}`}>
         {details.data.featured_img.localFile && (
           <Overdrive duration={500} id={`${details.data.title.text}-cover`}>
             <Img
@@ -43,7 +43,7 @@ export default ({ details }) => {
       </Link>
       <div className="project-details">
         <h3>
-          <Link to={`projects/${details.uid}`}>{details.data.title.text}</Link>
+          <Link to={`work/${details.uid}`}>{details.data.title.text}</Link>
         </h3>
       </div>
     </Project>

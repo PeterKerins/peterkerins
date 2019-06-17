@@ -7,8 +7,8 @@ import ProjectListing from '../components/projectListing'
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <Helmet title="Projects" />
-    <h2>My Projects</h2>
+    <Helmet title="Work" />
+    <h2>My Work</h2>
     <div
       className="projects-grid"
       style={{

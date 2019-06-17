@@ -28,9 +28,9 @@ export default function navbar() {
       <StyledLink
         activeStyle={{ color: '#339999' }}
         partiallyActive={true}
-        to="/projects"
+        to="/work"
       >
-        Projects
+        Work
       </StyledLink>
       <StyledLink activeStyle={{ color: '#339999' }} to="/about">
         About
