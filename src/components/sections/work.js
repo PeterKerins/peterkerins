@@ -9,7 +9,7 @@ const ProjectsWrapper = styled.div`
   grid-template-columns: 1fr;
   grid-gap: 2em;
   @media (min-width: 600px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 `
 
@@ -47,7 +47,7 @@ export default () => (
     render={data => (
       <section id="work">
         <h2>
-          <Link to="/work">Work</Link>
+          <Link to="/work">Recent Work</Link>
         </h2>
         <ProjectsWrapper className="projectsWrapper">
           {data.allPrismicProject.edges.map(({ node }) => (

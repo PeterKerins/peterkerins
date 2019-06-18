@@ -10,7 +10,7 @@ const Service = styled.article`
   align-items: center;
   .service-information {
     h3 {
-      font-size: 2.8rem;
+      font-size: 2.2rem;
     }
     p {
       font-size: 1.2rem;

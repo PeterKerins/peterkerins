@@ -5,9 +5,6 @@ import Img from 'gatsby-image'
 import Overdrive from 'react-overdrive'
 
 const Project = styled.article`
-  &:nth-of-type(1) {
-    grid-column: 1/ -1;
-  }
   position: relative;
 
   .project-details {
