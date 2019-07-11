@@ -20,7 +20,8 @@ const seo = () => {
         meta={[
           {
             name: 'description',
-            content: 'Peter Kerins Developer Portfolio',
+            content:
+              'Cork Based Freelance web developer, specialising in graphic design, e-commerce, and the JAMstack',
           },
           {
             name: 'keywords',
