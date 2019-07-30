@@ -21,6 +21,11 @@ const BannerContent = styled.div`
   align-items: center;
   padding: 1em;
   color: white;
+  h2 {
+    @media (max-width: 835px) {
+      font-size: 1.8em;
+    }
+  }
 `
 
 const banner = () => {
@@ -28,9 +33,8 @@ const banner = () => {
     <Banner>
       <BannerContent>
         <h2>
-          Cork Based Web Developer, specialising in: <br /> web development,
-          e-commerce, graphic design, branding &amp; logo design, and the
-          JAMstack
+          Cork Based Web Developer, specialising in: web development, ecommerce,
+          graphic design, branding &amp; logo design, and the JAMstack
         </h2>
       </BannerContent>
     </Banner>
