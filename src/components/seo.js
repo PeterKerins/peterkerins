@@ -1,22 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
 
 const seo = () => {
-  const data = useStaticQuery(graphql`
-    query HeaderQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
   return (
     <>
       <Helmet
         titleTemplate="%s | Peter Kerins"
-        title={data.site.siteMetadata.title}
+        title={'Peter Kerins Web Development'}
         meta={[
           {
             name: 'description',
