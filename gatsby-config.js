@@ -5,6 +5,8 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Peter Kerins',
+    description:
+      'Cork Based Web Developer, specialising in: web development, ecommerce, graphic design, branding & logo design, and the JAMstack',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
