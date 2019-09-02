@@ -633,5 +633,8 @@ pre tt:after {
   color: #339999;
 }
 section {
-  margin-bottom: 2em;
+  margin-bottom: 3.5em;
+}
+section#services {
+  margin-top: 2em;
 }
