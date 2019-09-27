@@ -18,7 +18,7 @@ const Footer = styled.footer`
 export default function footer() {
   return (
     <Footer>
-      <p>&copy; 2018</p>
+      <p>&copy; {new Date().getFullYear()}</p>
       <Link to="/imprint">Imprint</Link>
     </Footer>
   )
