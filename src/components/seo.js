@@ -27,7 +27,8 @@ export default () => {
           },
           {
             name: 'keywords',
-            content: 'Cork, Ireland, Web Developer, Web Services',
+            content:
+              'Cork, Ireland, Web Developer, Web Services, Web Development, Developer, Web Designer, Development Agency',
           },
         ]}
       >
