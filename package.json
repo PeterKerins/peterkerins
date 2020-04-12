@@ -5,25 +5,26 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.20.7",
-    "gatsby-cli": "^2.11.2",
-    "gatsby-image": "^2.3.1",
+    "gatsby": "^2.20.15",
+    "gatsby-cli": "^2.11.5",
+    "gatsby-image": "^2.3.2",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-remove-serviceworker": "^1.0.0",
-    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-sharp": "^2.5.4",
+    "gatsby-plugin-sitemap": "^2.3.1",
     "gatsby-plugin-styled-components": "^3.2.1",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-source-prismic": "^2.2.0",
-    "gatsby-transformer-sharp": "^2.4.2",
+    "gatsby-transformer-sharp": "^2.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.9.0",
     "react-overdrive": "0.0.10",
     "react-spring": "^8.0.27",
-    "styled-components": "^5.0.1"
+    "styled-components": "^5.1.0"
   },
   "keywords": [
     "gatsby"

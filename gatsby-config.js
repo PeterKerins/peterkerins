@@ -9,6 +9,7 @@ module.exports = {
       'Cork Based Web Developer, specialising in: web development, ecommerce, graphic design, branding & logo design, and the JAMstack',
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
