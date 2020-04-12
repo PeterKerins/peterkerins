@@ -4,6 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.peterkerins.com`,
     title: 'Peter Kerins',
     description:
       'Cork Based Web Developer, specialising in: web development, ecommerce, graphic design, branding & logo design, and the JAMstack',
