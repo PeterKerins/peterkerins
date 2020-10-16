@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { Spring } from 'react-spring/renderprops'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import Layout from '../components/layout'
 
