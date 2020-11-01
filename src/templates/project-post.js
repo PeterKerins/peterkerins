@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Overdrive from 'react-overdrive'
 import styled from 'styled-components'
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import { FaLink } from 'react-icons/fa'
 
 import Layout from '../components/layout'
