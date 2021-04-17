@@ -48,4 +48,4 @@ const ServiceListing = ({ details }) => {
   )
 }
 
-export { ServiceListing }
+export default ServiceListing

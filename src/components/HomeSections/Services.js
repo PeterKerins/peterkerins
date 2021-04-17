@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 
-import { ServiceListing } from '../ServiceListing'
+import ServiceListing from '../ServiceListing'
 
 const Services = () => {
   const data = useStaticQuery(graphql`
@@ -55,4 +55,4 @@ const Services = () => {
   )
 }
 
-export { Services }
+export default Services
