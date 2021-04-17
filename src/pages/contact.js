@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet'
 import { Spring } from 'react-spring/renderprops'
 import styled from 'styled-components'
 
-import Layout from '../components/layout'
-import ContactForm from '../components/contactForm'
+import { ContactForm } from '../components/ContactForm'
+import Layout from '../components/Layout'
 
 const ContactWrapper = styled.div`
   display: grid;
@@ -17,7 +17,7 @@ const ContactWrapper = styled.div`
   }
 `
 
-export default function about({ data }) {
+export default function Contact() {
   return (
     <Layout>
       <Helmet title="Contact" />
