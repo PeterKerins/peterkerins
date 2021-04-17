@@ -1,11 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import Layout from '../components/layout'
-
 export default function PrivacyPolicy() {
   return (
-    <Layout>
+    <>
       <Helmet title="Imprint" />
       <h1>Privacy Policy of Peter Kerins Web Development</h1>
 
@@ -155,6 +153,6 @@ export default function PrivacyPolicy() {
         Commons License (CC 4.0) This website has no connection and is not
         endorsed by FontAwesome. They just make fantastic icons!
       </p>
-    </Layout>
+    </>
   )
 }

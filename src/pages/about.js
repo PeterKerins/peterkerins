@@ -5,8 +5,6 @@ import styled from 'styled-components'
 import { Spring } from 'react-spring/renderprops'
 import { Helmet } from 'react-helmet'
 
-import Layout from '../components/layout'
-
 const AboutWrapper = styled.div`
   display: grid;
   grid-template-columns: 4fr 3fr;
@@ -20,9 +18,9 @@ const AboutWrapper = styled.div`
   }
 `
 
-export default function about({ data }) {
+export default function About({ data }) {
   return (
-    <Layout>
+    <>
       <Helmet title="About" />
       <AboutWrapper>
         <Spring from={{ position: 'relative', left: -800 }} to={{ left: 0 }}>
@@ -55,7 +53,7 @@ export default function about({ data }) {
           </Spring>
         )}
       </AboutWrapper>
-    </Layout>
+    </>
   )
 }
 export const query = graphql`

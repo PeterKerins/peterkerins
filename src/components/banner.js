@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Banner = styled.div`
+const BannerStyles = styled.div`
   height: 60vh;
   width: 100vw;
   position: relative;
@@ -13,7 +13,7 @@ const Banner = styled.div`
   margin-top: -1.45rem;
   margin-bottom: 1.45rem;
 `
-const BannerContent = styled.div`
+const BannerContentStyles = styled.div`
   max-width: 998px;
   margin: 0 auto;
   height: 100%;
@@ -28,17 +28,17 @@ const BannerContent = styled.div`
   }
 `
 
-const banner = () => {
+const Banner = () => {
   return (
-    <Banner>
-      <BannerContent>
+    <BannerStyles>
+      <BannerContentStyles>
         <h2>
           Cork Based Web Developer, specialising in: web development, ecommerce,
           graphic design, branding &amp; logo design, and the JAMstack
         </h2>
-      </BannerContent>
-    </Banner>
+      </BannerContentStyles>
+    </BannerStyles>
   )
 }
 
-export default banner
+export { Banner }

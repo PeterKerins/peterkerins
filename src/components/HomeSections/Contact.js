@@ -1,8 +1,8 @@
 import React from 'react'
 
-import ContactForm from '../contactForm'
+import { ContactForm } from '../ContactForm'
 
-export default function contact() {
+function Contact() {
   return (
     <section id="contact">
       <h2>Contact Me</h2>
@@ -14,3 +14,5 @@ export default function contact() {
     </section>
   )
 }
+
+export { Contact }

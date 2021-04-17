@@ -29,7 +29,7 @@ const Service = styled.article`
   }
 `
 
-export default ({ details }) => {
+const ServiceListing = ({ details }) => {
   return (
     <Service>
       {details.data.service_icon.localFile && (
@@ -47,3 +47,5 @@ export default ({ details }) => {
     </Service>
   )
 }
+
+export { ServiceListing }

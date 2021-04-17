@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Nav from './navbar'
+import { NavBar } from './NavBar'
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <Nav />
+    <NavBar />
   </HeaderWrapper>
 )
 

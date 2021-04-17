@@ -14,7 +14,7 @@ const StyledLink = styled(Link)`
   }
 `
 
-export default function navbar() {
+function NavBar() {
   return (
     <nav className="menu-items">
       <StyledLink
@@ -25,13 +25,6 @@ export default function navbar() {
       >
         Home
       </StyledLink>
-      {/* <StyledLink
-        activeStyle={{ color: '#339999' }}
-        partiallyActive={true}
-        to="/work"
-      >
-        Work
-      </StyledLink> */}
       <StyledLink activeStyle={{ color: '#339999' }} to="/about">
         About
       </StyledLink>
@@ -41,3 +34,5 @@ export default function navbar() {
     </nav>
   )
 }
+
+export { NavBar }
