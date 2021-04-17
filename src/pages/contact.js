@@ -4,6 +4,7 @@ import { Spring } from 'react-spring/renderprops'
 import styled from 'styled-components'
 
 import { ContactForm } from '../components/ContactForm'
+import Layout from '../components/Layout'
 
 const ContactWrapper = styled.div`
   display: grid;
@@ -18,7 +19,7 @@ const ContactWrapper = styled.div`
 
 export default function Contact() {
   return (
-    <>
+    <Layout>
       <Helmet title="Contact" />
       <Spring from={{ position: 'relative', left: -800 }} to={{ left: 0 }}>
         {props => (
@@ -36,6 +37,6 @@ export default function Contact() {
           </ContactWrapper>
         )}
       </Spring>
-    </>
+    </Layout>
   )
 }

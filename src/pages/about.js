@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { Spring } from 'react-spring/renderprops'
 import { Helmet } from 'react-helmet'
+import Layout from '../components/Layout'
 
 const AboutWrapper = styled.div`
   display: grid;
@@ -20,7 +21,7 @@ const AboutWrapper = styled.div`
 
 export default function About({ data }) {
   return (
-    <>
+    <Layout>
       <Helmet title="About" />
       <AboutWrapper>
         <Spring from={{ position: 'relative', left: -800 }} to={{ left: 0 }}>
@@ -53,7 +54,7 @@ export default function About({ data }) {
           </Spring>
         )}
       </AboutWrapper>
-    </>
+    </Layout>
   )
 }
 export const query = graphql`
