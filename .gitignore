@@ -1,5 +1,4 @@
 # Project dependencies
-.cache
 node_modules
 yarn-error.log
 .env.development
@@ -7,3 +6,4 @@ yarn-error.log
 /public
 .DS_Store
 .env.production
+.next
